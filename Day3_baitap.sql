@@ -60,5 +60,6 @@ WHERE yearly_salary <= 30000
 OR yearly_salary >= 70000;
 
 ex15: datalemur-find-the-advertising-channel.
-SELECT advertising_channel FROM uber_advertising
-WHERE money_spent > 100000;
+SELECT advertising_channel 
+FROM uber_advertising
+WHERE year = 2019 AND money_spent > 100000;
